@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:#fff;
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+.heading span{
+    color:#d3ad7f;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+.header{
+    background: #B4E197;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px ;
+    border-bottom:1px solid rgba(255,255,255,.3);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header.navbar-nav{
+    background: #B4E197;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom:1px solid rgba(255,255,255,.3);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+/* .header .logo img{
+    height: 6rem;
+}
+
+.header .icons div:hover{
+    color:#d3ad7f;
+}
+
+#menu-btn{
+    display: none;
+} */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(https://img.freepik.com/free-photo/top-view-different-vegetables-with-fruits-white-background-food-diet-health-ripe-color-salad_140725-98420.jpg?t=st=1654439250~exp=1654439850~hmac=42e5fca4d7d48df9301f7a43676f5d06cae8df5c59d74e4aaa49089f53dd229b&w=900) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.grid.img{
+    object-fit: cover;
+}
+
+.grid > article{
+    box-shadow: 5px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background: whitesmoke;
+    width: 250px;
+    transition: transform;
+}
+
+.grid > article img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+}
+
+.grid > article:hover{
+    transform: scale(1.1);
+}
+
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+    .contact .row .map{
+        width:500px; 
+        height:450px;
+        object-fit: cover;
+    }
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:rgb(0, 0, 0);
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:black;
+    border:1px solid ;
+}
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
+
+.footer{
+    text-align: center;
+    border-radius: 1px solid black;
+    color: #ffff;
+    /* padding: 50px 100px; */
+    background-color: #4E944F;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    /* height: 410px; */
+    background-image: url("https://cdn-icons-png.flaticon.com/512/4163/4163717.png");
+    /* background-repeat: repeat-y; */
+    /* background-position: right top; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+ 
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home{
+        /* background-position: left; */
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
